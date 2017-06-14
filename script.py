@@ -157,6 +157,9 @@ def run(filename):
                            args[0], args[1], args[2], args[3], step)
                 matrix_mult( stack[-1], tmp )
                 draw_polygons(tmp, screen, zb, color)
+                print color
+                color = (255, 0, 0)
+                print color
                 tmp = []
             elif c == 'torus':
                 add_torus(tmp,
